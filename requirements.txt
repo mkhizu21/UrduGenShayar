@@ -1,2 +1,7 @@
 torch
+torchvision
+torchaudio
 pandas
+streamlit
+numpy
+regex
