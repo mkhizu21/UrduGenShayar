@@ -16,7 +16,7 @@ This repository contains an LSTM-based generative model trained on Roman Urdu po
 ## 🔧 Installation  
 Clone the repository and install the dependencies:  
 
-```bash
+bash
 git clone https://github.com/mkhizu21/UrduGenShayar.git  
 cd roman-urdu-poetry-generator  
 pip install -r requirements.txt
@@ -33,8 +33,11 @@ pip install -r requirements.txt
 
 The dataset consists of Roman Urdu poetry scraped from Rekhta. Preprocessing includes:
 ![WhatsApp Image 2025-02-16 at 14 44 43_cde68f4c](https://github.com/user-attachments/assets/2e1e13b6-8133-41cd-8aed-5ae0e749e57c)
+
 ✔ Cleaning & Normalization
+
 ✔ Tokenization (BPE & Character-Pair Encoding)
+
 ✔ Sequence Preparation for LSTM Training
 
 🏗️ Model Architecture
@@ -44,17 +47,17 @@ python train.py
 Adjust hyperparameters in config.py:
 
 EPOCHS = 100
+
 LSTM_LAYERS = 4
+
 TOKENIZER = 'character-pair'
+
 🎤 Poetry Generation
 Generate poetry using:
 
 python generate.py --seed "tujh pe uthi hain" --length 50
 
 Example Output:
-
-[WhatsApp Image 2025-02-16 at 14 44 43_cde68f4c](https://github.com/user-attachments/assets/aeb23ee5-714a-4d3b-9997-ea67ce5fd6cd)
-
 
 📊 Results & Observations
 
@@ -75,5 +78,4 @@ This project is licensed under the MIT License.
 
 ##💌 Connect
 Let's talk AI & poetry! Reach out via:
-📧 Email: your.email@example.com
-🐦 Twitter: @yourhandle
+📧 Email: 
