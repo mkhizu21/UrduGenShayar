@@ -33,6 +33,7 @@ pip install -r requirements.txt
 
 The dataset consists of Roman Urdu poetry scraped from Rekhta. Preprocessing includes:
 ![WhatsApp Image 2025-02-16 at 14 44 43_cde68f4c](https://github.com/user-attachments/assets/2e1e13b6-8133-41cd-8aed-5ae0e749e57c)
+![Results](results.jpg)
 ✔ Cleaning & Normalization
 ✔ Tokenization (BPE & Character-Pair Encoding)
 ✔ Sequence Preparation for LSTM Training
