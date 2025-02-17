@@ -17,19 +17,22 @@ This repository contains an LSTM-based generative model trained on Roman Urdu po
 Clone the repository and install the dependencies:  
 
 ```bash
-git clone https://github.com/your-username/roman-urdu-poetry-generator.git  
+git clone https://github.com/mkhizu21/UrduGenShayar.git  
 cd roman-urdu-poetry-generator  
 pip install -r requirements.txt
 
-**Preview Directly In Streamlit**
-**https://urdugenshayar-9171-9301.streamlit.app/**
+> **Preview Directly In Streamlit
+> https://urdugenshayar-9171-9301.streamlit.app/
+> **
 
-**To Run Locally on your PC, Clone the Repository and Run the following command in Terminal**
-**python -m streamlit run app.py** 
-
+> **To Run Locally on your PC, Clone the Repository and Run the following command in Terminal
+> python -m streamlit run app.py 
+> **
  
 📂 Dataset
+
 The dataset consists of Roman Urdu poetry scraped from Rekhta. Preprocessing includes:
+![WhatsApp Image 2025-02-16 at 14 44 43_cde68f4c](https://github.com/user-attachments/assets/2e1e13b6-8133-41cd-8aed-5ae0e749e57c)
 ✔ Cleaning & Normalization
 ✔ Tokenization (BPE & Character-Pair Encoding)
 ✔ Sequence Preparation for LSTM Training
@@ -46,10 +49,11 @@ TOKENIZER = 'character-pair'
 🎤 Poetry Generation
 Generate poetry using:
 
-python generate.py --seed "tujh pe uthi hain" --length 50  
+python generate.py --seed "tujh pe uthi hain" --length 50
+
 Example Output:
 
-![WhatsApp Image 2025-02-16 at 14 44 43_cde68f4c](https://github.com/user-attachments/assets/9d0f921d-3988-48c2-80bd-6ff70b9366a7)
+[WhatsApp Image 2025-02-16 at 14 44 43_cde68f4c](https://github.com/user-attachments/assets/aeb23ee5-714a-4d3b-9997-ea67ce5fd6cd)
 
 
 📊 Results & Observations
@@ -58,17 +62,18 @@ BPE vs Character-Pair Encoding: BPE performed well but struggled with small data
 Epochs & LSTM Layers: Increasing epochs from 50 to 100 and LSTM layers from 2 to 4 improved coherence.
 Dataset Limitation: The model generated fluent text, but a larger dataset would enhance quality further.
 
-🔮 Future Enhancements
+##🔮 Future Enhancements
+
 📈 Train on a Larger Corpus for Better Contextual Understanding
 🔀 Experiment with GRU & Transformer Architectures
 🌐 Deploy as a Web API for Interactive Usage
 🤝 Contributing
 Contributions are welcome! If you have ideas to improve the model, feel free to submit a PR.
 
-📜 License
+##📜 License
 This project is licensed under the MIT License.
 
-💌 Connect
+##💌 Connect
 Let's talk AI & poetry! Reach out via:
 📧 Email: your.email@example.com
 🐦 Twitter: @yourhandle
